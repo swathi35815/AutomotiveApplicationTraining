@@ -1,18 +1,15 @@
-package com.example.automotivehelloworldapp2
+package com.randstad.automotivehelloworldapp2
 
 import androidx.car.app.CarContext
 import androidx.car.app.CarToast
 import androidx.car.app.Screen
-import androidx.car.app.model.Action
 import androidx.car.app.model.CarIcon
 import androidx.car.app.model.GridItem
 import androidx.car.app.model.GridTemplate
 import androidx.car.app.model.ItemList
-import androidx.car.app.model.Pane
-import androidx.car.app.model.PaneTemplate
-import androidx.car.app.model.Row
 import androidx.car.app.model.Template
 import androidx.core.graphics.drawable.IconCompat
+import com.example.automotivehelloworldapp2.R
 
 class HelloWorldScreen(carContext: CarContext) : Screen(carContext) {
     override fun onGetTemplate(): Template {

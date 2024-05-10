@@ -1,4 +1,4 @@
-package com.example.automotivehelloworldapp2
+package com.randstad.automotivehelloworldapp2
 
 import androidx.car.app.CarAppService
 import androidx.car.app.Session

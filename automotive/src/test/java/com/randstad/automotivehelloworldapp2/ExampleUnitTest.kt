@@ -1,4 +1,4 @@
-package com.example.automotivehelloworldapp2
+package com.randstad.automotivehelloworldapp2
 
 import org.junit.Test
 

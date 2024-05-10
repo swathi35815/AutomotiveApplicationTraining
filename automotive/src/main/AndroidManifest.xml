@@ -41,7 +41,7 @@
             android:value="1" />
 
         <service
-            android:name=".HelloWorldService"
+            android:name="com.randstad.automotivehelloworldapp2.HelloWorldService"
             android:exported="true">
             <intent-filter>
                 <action android:name="androidx.car.app.CarAppService" />
