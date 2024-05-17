@@ -32,6 +32,16 @@ class HelloWorldScreen(carContext: CarContext) : Screen(carContext) {
             fun onDestroy() {
                 Log.i("mytag", "HelloWorldScreen onDestroy() method")
             }
+
+            @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
+            fun onResume() {
+                Log.i("mytag", "HelloWorldScreen onResume() method")
+            }
+
+            @OnLifecycleEvent(Lifecycle.Event.ON_PAUSE)
+            fun onPause() {
+                Log.i("mytag", "HelloWorldScreen onPause() method")
+            }
         })
     }
 

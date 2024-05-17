@@ -30,6 +30,16 @@ class Screen2(carContext: CarContext) : Screen(carContext) {
             fun onDestroy() {
                 Log.i("mytag", "Screen2 onDestroy() method")
             }
+
+            @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
+            fun onResume() {
+                Log.i("mytag", "Screen2 onResume() method")
+            }
+
+            @OnLifecycleEvent(Lifecycle.Event.ON_PAUSE)
+            fun onPause() {
+                Log.i("mytag", "Screen2 onPause() method")
+            }
         })
     }
 
